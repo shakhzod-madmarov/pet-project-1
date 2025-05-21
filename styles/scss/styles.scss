@@ -1,3 +1,15 @@
-body{
-    background-color: red;
-}
+@import "./core";
+@import "./fonts";
+@import "./mixins";
+@import "./resets";
+@import "./variables";
+
+@import "./blocks/header.scss";
+@import "./blocks/intro.scss";
+@import "./blocks/features.scss";
+@import "./blocks/reports.scss";
+@import "./blocks/customizable.scss";
+@import "./blocks/dashboard.scss";
+@import "./blocks/pricing.scss";
+@import "./blocks/footer.scss";
+
