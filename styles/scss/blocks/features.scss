@@ -1,0 +1,23 @@
+.features {
+    padding: 20px 0;
+
+  &__inner {
+    text-align: center;
+  }
+  &__list {
+      @include space-between;
+      padding: 50px 0;
+  }
+  &__item{
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    h3{
+        font-weight: 700;
+        color: $main-color;
+    }
+    p{
+        font-size: 16px;
+    }
+  }
+}

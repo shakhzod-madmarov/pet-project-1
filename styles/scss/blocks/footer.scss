@@ -1,0 +1,13 @@
+.footer {
+  height: 10dvh;
+  background-color: $main-color;
+  &__link {
+    @include space-between;
+    gap: 10px;
+  }
+  &__nav--list,
+  &-sm__list {
+    @include space-between;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  height: 10dvh;
+  background-color: $main-color;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  @include space-between;
+  &__logo {
+    color: $white-color;
+    @include space-between;
+    gap: 10px;
+  }
+  &__nav-list {
+    @include space-between;
+    width: 352px;
+  }
+  &__nav-link {
+    font-size: 16px;
+  }
+  &__sign-list {
+    @include space-between;
+    width: 230px;
+  }
+  &__sign-link {
+    font-size: 16px;
+  }
+  .sign-up {
+    padding: 10px 30px;
+    border: 2px solid;
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,65 @@
+.pricing {
+  text-align: center;
+  background-color: $main-color;
+  height: 90dvh;
+  &__inner {
+    width: 100%;
+  }
+  &__title {
+    color: $white-color;
+  }
+  &__list {
+    @include space-between;
+    margin: 50px 0;
+  }
+  &__item {
+    width: 340px;
+    height: 440px;
+    background-color: #2a407c;
+    border-radius: 10px;
+    padding: 30px 0;
+    p {
+      padding-bottom: 40px;
+      font-size: 16px;
+    }
+    &-title,
+    &-price {
+      color: $white-color;
+      font-size: 30px !important;
+      font-weight: 700;
+      padding: 30px 0 10px;
+    }
+    &--active {
+      background-color: $white-color;
+      h3,
+      p {
+        color: $main-color;
+      }
+      a {
+        background-color: $pink-color;
+        border: none;
+        transition: all 0.5s;
+      }
+      a:hover {
+        color: $white-color;
+        border: 2px solid $secondary-color;
+        border-radius: 20px;
+        padding: 10px 50px;
+        transition: all 0.5s;
+        background-color: $main-color;
+      }
+    }
+  }
+  &__link {
+    color: $white-color;
+    border: 2px solid $secondary-color;
+    border-radius: 20px;
+    padding: 10px 50px;
+    transition: all 0.5s;
+  }
+  &__link:hover {
+    background-color: $pink-color;
+    border: none;
+    transition: all 0.5s;
+  }
+}
